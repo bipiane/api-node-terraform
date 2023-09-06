@@ -4,7 +4,7 @@ init().then();
 
 async function init(): Promise<void> {
     try {
-        const port = 3000;
+        const port = 3001;
 
         app.listen(port, '0.0.0.0', () => {
             console.log(`🚀 Server started: http://localhost:${port}`);
