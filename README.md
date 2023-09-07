@@ -76,6 +76,7 @@ it will be downloaded from the GitHub repository and the Node API will start wit
 
 - Create specific profile (aws user) to operate with Terraform.
 - Create private subnets to deploy EC2 instances.
+- Create a golden AMI to speed up the launch time. 
 - Consider creating a NAT gateway.
 - Implement GitHub Actions.
 - Add logs to S3.
